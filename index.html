@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Mihir Raval | PHP Full Stack Developer &amp; Computer Engineering Student</title>
+  <meta name="title" content="Mihir Raval | PHP Full Stack Developer &amp; Computer Engineering Student">
+  <meta name="description" content="Personal portfolio of Mihir Raval, an early-career PHP Full Stack Developer and Computer Engineering student from Palanpur, Gujarat. Building practical web applications with PHP, MySQL, and JavaScript.">
+  <meta name="author" content="Mihir Raval">
+  <meta name="keywords" content="Mihir Raval, PHP Developer, Full Stack Developer, Web Developer, MySQL, Computer Engineering, GEC Palanpur, TaskSphere, DevDock, FinanceFlow">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mihirraval.dev/">
+  <meta property="og:title" content="Mihir Raval | PHP Full Stack Developer">
+  <meta property="og:description" content="Early-career developer focused on practical, database-driven web applications using PHP, MySQL, and JavaScript.">
+  <meta property="og:image" content="assets/images/profile/avatar-placeholder.svg">
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Mihir Raval | PHP Full Stack Developer">
+  <meta property="twitter:description" content="Early-career developer focused on practical, database-driven web applications using PHP, MySQL, and JavaScript.">
+  <meta property="twitter:image" content="assets/images/profile/avatar-placeholder.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <script>
+    // Prevent theme flash by reading localStorage immediately
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <!-- Skip to Content Accessibility Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <!-- Logo / Monogram -->
+      <a href="#hero" class="brand-logo" aria-label="Mihir Raval Portfolio Home">
+        <span class="brand-monogram" aria-hidden="true">MR</span>
+        <div class="brand-name">
+          <span>MIHIR RAVAL</span>
+          <span class="brand-title">PHP FULL STACK DEV</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav id="site-navigation" role="navigation" aria-label="Primary Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#principles" class="nav-link">Principles</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          
+          <!-- Mobile Only Status Badge -->
+          <li class="nav-mobile-status" style="display: none;">
+            <div class="status-pill">
+              <span class="status-dot"></span>
+              <span>OPEN TO ENTRY-LEVEL OPPORTUNITIES</span>
+            </div>
+          </li>
+          
+          <!-- Mobile Only Resume Button -->
+          <li class="nav-mobile-resume" style="display: none;">
+            <a href="assets/resume/Mihir_Raval_Resume.pdf" download="Mihir_Raval_Resume.pdf" class="btn btn-secondary btn-sm" style="width: 100%;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              <span>Download Resume</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="header-actions">
+        <!-- Desktop Availability Status -->
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span>OPEN TO ENTRY-LEVEL OPPORTUNITIES</span>
+        </div>
+
+        <!-- Download Resume Button (Desktop) -->
+        <a href="assets/resume/Mihir_Raval_Resume.pdf" download="Mihir_Raval_Resume.pdf" class="btn btn-secondary btn-sm" style="display: none; @media(min-width: 900px){display: inline-flex;}">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Theme Toggle -->
+        <button type="button" class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle light/dark theme">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor">
+            <circle cx="12" cy="12" r="5" stroke-width="2"/>
+            <path stroke-linecap="round" stroke-width="2" d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-toggle-btn" id="mobile-toggle" aria-label="Open mobile navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Anchor -->
+  <main id="main-content">
+
+<!-- ==========================================================================
+     HERO SECTION
+     ========================================================================== -->
+<section id="hero" class="hero-section" aria-label="Introduction and Overview">
+  <div class="container">
+    <div class="hero-grid">
+      <!-- Left Content Column -->
+      <div class="hero-content reveal">
+        <div class="hero-availability">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>OPEN TO ENTRY-LEVEL OPPORTUNITIES</span>
+          </div>
+        </div>
+
+        <h1 class="hero-title">
+          Building practical web applications with <span class="accent-text">clarity</span> &amp; purpose.
+        </h1>
+
+        <div class="hero-role-tag">
+          PHP Full Stack Developer &bull; Computer Engineering Student
+        </div>
+
+        <p class="hero-description">
+          I build database-driven web applications using PHP, MySQL, JavaScript, and modern frontend tools. I focus on practical CRUD workflows, relational database logic, and clean code that solves real problems.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>View Projects</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Contact Me</span>
+          </a>
+          <a href="assets/resume/Mihir_Raval_Resume.pdf" download="Mihir_Raval_Resume.pdf" class="btn btn-ghost">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            <span>Resume</span>
+          </a>
+        </div>
+
+        <!-- Social Icons Row -->
+        <div class="hero-social">
+          <a href="https://github.com/Mihir290545" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="Visit Mihir's GitHub Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/mihir-raval-2aa82b377/" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="Visit Mihir's LinkedIn Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <button type="button" onclick="copyEmailToClipboard('mihiryogirajubhai@gmail.com')" class="hero-social-link" aria-label="Copy Mihir's Email Address" title="Copy email address">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Right Column: Editorial Profile & Tech Overview Card -->
+      <div class="hero-visual reveal reveal-delay-1">
+        <div class="editorial-card">
+          <div class="card-top-bar">
+            <span class="card-tag">// DEVELOPER PROFILE</span>
+            <span class="card-location">Palanpur, Gujarat, India</span>
+          </div>
+
+          <div class="card-profile-header">
+            <div class="card-avatar">
+              <img src="assets/images/profile/avatar-placeholder.svg" alt="Mihir Raval Monogram Avatar" width="68" height="68">
+            </div>
+            <div>
+              <div class="card-id-name">Mihir Raval</div>
+              <div class="card-id-title">PHP Full Stack Developer</div>
+            </div>
+          </div>
+
+          <!-- Academic & System Metrics -->
+          <div class="card-metric-list">
+            <div class="metric-box">
+              <div class="metric-label">ACADEMIC STATUS</div>
+              <div class="metric-val">B.E. Computer Eng.</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-label">CURRENT CGPA</div>
+              <div class="metric-val">7.50 / 10.0</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-label">GRADUATION</div>
+              <div class="metric-val">Class of 2027</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-label">PRIMARY STACK</div>
+              <div class="metric-val" style="color: var(--accent);">PHP &bull; MySQL &bull; JS</div>
+            </div>
+          </div>
+
+          <!-- Terminal-style Focus Snapshot -->
+          <div class="card-terminal-snippet">
+            <span class="snippet-prompt">&gt;</span>current_focus: <span style="color: var(--accent);">CRUD systems, backend validation, API integration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     ABOUT SECTION
+     ========================================================================== -->
+<section id="about" class="section section-alt" aria-label="About Mihir Raval">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">BACKGROUND</div>
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">
+        An early-career developer committed to building functional, database-driven applications.
+      </p>
+    </div>
+
+    <div class="about-grid">
+      <!-- Left: Narrative -->
+      <div class="about-narrative reveal">
+        <p class="about-lead">
+          I am currently pursuing my Bachelor of Engineering in Computer Engineering at Government Engineering College, Palanpur (expected graduation in 2027, current CGPA: 7.50).
+        </p>
+        <p>
+          My interest lies in backend programming, relational database systems, and full-stack web development. I enjoy understanding how user input moves from a browser form, through backend validation and business logic, down into relational MySQL tables.
+        </p>
+        <p>
+          I have hands-on experience building personal and academic applications, including full CRUD platforms, API testing tools, and financial tracking software. Recently, I completed an internship as a Junior MERN Stack Developer Intern at <strong>Depple Sorf Pvt. Ltd.</strong>, where I worked with responsive components, client-side state, form handling, and RESTful API integrations.
+        </p>
+        <p>
+          Rather than relying on abstract claims, I prefer learning by building real projects, systematically debugging edge cases, and continuously refining code quality.
+        </p>
+      </div>
+
+      <!-- Right: Credentials Card -->
+      <div class="about-credentials reveal reveal-delay-1">
+        <div class="about-credentials-card">
+          <div class="credential-item">
+            <span class="cred-title">CURRENT EDUCATION</span>
+            <span class="cred-name">Bachelor of Engineering in Computer Engineering</span>
+            <span class="cred-detail">Government Engineering College, Palanpur (Expected 2027)</span>
+            <span class="cred-detail" style="color: var(--accent); font-weight: 600;">Current CGPA: 7.50</span>
+          </div>
+
+          <div class="credential-item">
+            <span class="cred-title">PRACTICAL EXPERIENCE</span>
+            <span class="cred-name">Junior MERN Stack Developer Intern</span>
+            <span class="cred-detail">Depple Sorf Pvt. Ltd.</span>
+            <span class="cred-detail">Frontend layouts, form validation, and REST API consumption.</span>
+          </div>
+
+          <div class="credential-item">
+            <span class="cred-title">TARGET OPPORTUNITIES</span>
+            <span class="cred-name">Entry-Level Engineering Roles</span>
+            <span class="cred-detail">PHP Developer &bull; Junior Full Stack Developer &bull; Backend Developer &bull; Junior Software Developer</span>
+          </div>
+
+          <div class="credential-item">
+            <span class="cred-title">GEOGRAPHIC LOCATION</span>
+            <span class="cred-name">Palanpur, Gujarat, India</span>
+            <span class="cred-detail">Open to on-site, hybrid, or remote positions.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     TECHNICAL SKILLS SECTION
+     ========================================================================== -->
+<section id="skills" class="section" aria-label="Technical Skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">CAPABILITIES</div>
+      <h2 class="section-title">Technical Skills</h2>
+      <p class="section-subtitle">
+        A transparent breakdown of the technologies, databases, tools, and engineering fundamentals I work with.
+      </p>
+    </div>
+
+    <div class="skills-grid">
+              <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <span class="skill-cat-title">Backend Development</span>
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent);">[7]</span>
+          </div>
+          <ul class="skill-items-list">
+                          <li class="skill-item highlight">
+                <div class="skill-name-row">
+                  <span class="skill-name">PHP</span>
+                                      <span class="skill-badge">CORE</span>
+                                  </div>
+                <span class="skill-desc">Core scripting, procedural &amp; OOP fundamentals</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Server-Side Scripting</span>
+                                  </div>
+                <span class="skill-desc">Request handling &amp; dynamic templating</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Form Handling &amp; Sanitization</span>
+                                  </div>
+                <span class="skill-desc">Secure input processing &amp; cleaning</span>
+              </li>
+                          <li class="skill-item highlight">
+                <div class="skill-name-row">
+                  <span class="skill-name">CRUD Operations</span>
+                                      <span class="skill-badge">CORE</span>
+                                  </div>
+                <span class="skill-desc">Create, Read, Update, Delete cycles</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Backend Validation</span>
+                                  </div>
+                <span class="skill-desc">Server validation rules &amp; boundary tests</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Session Management</span>
+                                  </div>
+                <span class="skill-desc">State tracking &amp; auth session flows</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Business Logic</span>
+                                  </div>
+                <span class="skill-desc">Structured application service flow</span>
+              </li>
+                      </ul>
+        </div>
+              <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <span class="skill-cat-title">Database &amp; Storage</span>
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent);">[4]</span>
+          </div>
+          <ul class="skill-items-list">
+                          <li class="skill-item highlight">
+                <div class="skill-name-row">
+                  <span class="skill-name">MySQL</span>
+                                      <span class="skill-badge">CORE</span>
+                                  </div>
+                <span class="skill-desc">Relational database schema &amp; management</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">SQL Queries</span>
+                                  </div>
+                <span class="skill-desc">SELECT, JOIN, INSERT, UPDATE, DELETE</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Relational Design Fundamentals</span>
+                                  </div>
+                <span class="skill-desc">Primary/foreign keys &amp; table relationships</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Data Management</span>
+                                  </div>
+                <span class="skill-desc">Data types, constraints, and index basics</span>
+              </li>
+                      </ul>
+        </div>
+              <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <span class="skill-cat-title">Frontend Development</span>
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent);">[5]</span>
+          </div>
+          <ul class="skill-items-list">
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">HTML5</span>
+                                  </div>
+                <span class="skill-desc">Semantic structure &amp; accessibility standards</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">CSS3</span>
+                                  </div>
+                <span class="skill-desc">Custom styling, CSS Grid, Flexbox layouts</span>
+              </li>
+                          <li class="skill-item highlight">
+                <div class="skill-name-row">
+                  <span class="skill-name">JavaScript (ES6+)</span>
+                                      <span class="skill-badge">CORE</span>
+                                  </div>
+                <span class="skill-desc">Modern syntax, asynchronous flows, fetch</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">DOM Manipulation</span>
+                                  </div>
+                <span class="skill-desc">Event listeners, dynamic UI updates</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Responsive Web Design</span>
+                                  </div>
+                <span class="skill-desc">Mobile-first breakpoints &amp; fluid grids</span>
+              </li>
+                      </ul>
+        </div>
+              <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <span class="skill-cat-title">Web Development &amp; APIs</span>
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent);">[5]</span>
+          </div>
+          <ul class="skill-items-list">
+                          <li class="skill-item highlight">
+                <div class="skill-name-row">
+                  <span class="skill-name">REST APIs</span>
+                                      <span class="skill-badge">CORE</span>
+                                  </div>
+                <span class="skill-desc">Endpoint consumption, status codes, methods</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">HTTP Fundamentals</span>
+                                  </div>
+                <span class="skill-desc">GET/POST cycles, headers, status codes</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">JSON Data Parsing</span>
+                                  </div>
+                <span class="skill-desc">Data exchange &amp; client/server contracts</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Client Form Validation</span>
+                                  </div>
+                <span class="skill-desc">Immediate feedback and UX checks</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Browser Storage</span>
+                                  </div>
+                <span class="skill-desc">localStorage &amp; sessionStorage integration</span>
+              </li>
+                      </ul>
+        </div>
+              <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <span class="skill-cat-title">Programming Languages</span>
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent);">[4]</span>
+          </div>
+          <ul class="skill-items-list">
+                          <li class="skill-item highlight">
+                <div class="skill-name-row">
+                  <span class="skill-name">PHP</span>
+                                      <span class="skill-badge">CORE</span>
+                                  </div>
+                <span class="skill-desc">Primary backend language</span>
+              </li>
+                          <li class="skill-item highlight">
+                <div class="skill-name-row">
+                  <span class="skill-name">JavaScript</span>
+                                      <span class="skill-badge">CORE</span>
+                                  </div>
+                <span class="skill-desc">Full-stack &amp; client-side scripting</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">C</span>
+                                  </div>
+                <span class="skill-desc">Computer engineering fundamentals &amp; memory basics</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Python</span>
+                                  </div>
+                <span class="skill-desc">Scripting, problem solving &amp; logic exploration</span>
+              </li>
+                      </ul>
+        </div>
+              <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <span class="skill-cat-title">Tools &amp; Workflow</span>
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent);">[5]</span>
+          </div>
+          <ul class="skill-items-list">
+                          <li class="skill-item highlight">
+                <div class="skill-name-row">
+                  <span class="skill-name">Git</span>
+                                      <span class="skill-badge">CORE</span>
+                                  </div>
+                <span class="skill-desc">Branching, commit hygiene, staging</span>
+              </li>
+                          <li class="skill-item highlight">
+                <div class="skill-name-row">
+                  <span class="skill-name">GitHub</span>
+                                      <span class="skill-badge">CORE</span>
+                                  </div>
+                <span class="skill-desc">Repository management &amp; collaboration</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">VS Code</span>
+                                  </div>
+                <span class="skill-desc">Primary IDE &amp; development setup</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Postman</span>
+                                  </div>
+                <span class="skill-desc">Endpoint validation &amp; payload testing</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">npm</span>
+                                  </div>
+                <span class="skill-desc">Package management &amp; script running</span>
+              </li>
+                      </ul>
+        </div>
+              <div class="skill-category-card reveal">
+          <div class="skill-cat-header">
+            <span class="skill-cat-title">Core Engineering Concepts</span>
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent);">[4]</span>
+          </div>
+          <ul class="skill-items-list">
+                          <li class="skill-item highlight">
+                <div class="skill-name-row">
+                  <span class="skill-name">OOP Fundamentals</span>
+                                      <span class="skill-badge">CORE</span>
+                                  </div>
+                <span class="skill-desc">Encapsulation, inheritance, modular classes</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Data Structures &amp; Algorithms</span>
+                                  </div>
+                <span class="skill-desc">Academic foundational algorithms</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">Problem Solving &amp; Debugging</span>
+                                  </div>
+                <span class="skill-desc">Systematic console &amp; error-log diagnosis</span>
+              </li>
+                          <li class="skill-item ">
+                <div class="skill-name-row">
+                  <span class="skill-name">CRUD Architecture</span>
+                                  </div>
+                <span class="skill-desc">End-to-end data lifecycle design</span>
+              </li>
+                      </ul>
+        </div>
+          </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     PROJECT SHOWCASE SECTION
+     ========================================================================== -->
+<section id="projects" class="section section-alt" aria-label="Featured Projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">PORTFOLIO WORK</div>
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-subtitle">
+        Real web applications built to solve practical workflows, test developer concepts, and persist relational data.
+      </p>
+    </div>
+
+    <div class="projects-container">
+              <article class="project-card  reveal" id="project-tasksphere">
+          <!-- Project Info -->
+          <div class="project-info">
+            <div class="project-meta-row">
+              <span class="project-num">01</span>
+              <span class="project-category-tag">Full Stack Web Application</span>
+            </div>
+
+            <h3 class="project-name">TaskSphere</h3>
+            <div class="project-subtitle">Database-Driven Task &amp; Workflow Management Application</div>
+
+            <p class="project-summary">A practical task management platform engineered to organize personal and team workflows, manage task lifecycle stages, and persist operational records using PHP and relational MySQL.</p>
+
+            <!-- Key Highlights -->
+            <ul class="project-highlights-list">
+                              <li class="project-highlight-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Full CRUD operations for tasks, status tags, and workflow items</span>
+                </li>
+                              <li class="project-highlight-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Relational MySQL schema structure with indexed foreign keys</span>
+                </li>
+                              <li class="project-highlight-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Server-side validation and input sanitization routines</span>
+                </li>
+                              <li class="project-highlight-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Responsive task management dashboard designed for desktop and mobile</span>
+                </li>
+                          </ul>
+
+            <!-- Tech Tags -->
+            <div class="project-tags">
+                              <span class="project-tag">PHP</span>
+                              <span class="project-tag">MySQL</span>
+                              <span class="project-tag">HTML5</span>
+                              <span class="project-tag">CSS3</span>
+                              <span class="project-tag">JavaScript</span>
+                          </div>
+
+            <!-- Action Buttons -->
+            <div class="project-actions">
+              <a href="http://tasksphere.wuaze.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <span>Live Demo</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+              <a href="https://github.com/Mihir290545" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                <span>Source Code</span>
+              </a>
+              <button type="button" onclick="openProjectDetails('tasksphere')" class="btn btn-ghost btn-sm">
+                <span>View Details</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project Visual Preview -->
+          <div class="project-preview">
+            <img src="assets/images/projects/task-sphere.svg" alt="TaskSphere Application Preview" loading="lazy">
+          </div>
+        </article>
+              <article class="project-card alternate reveal" id="project-devdock">
+          <!-- Project Info -->
+          <div class="project-info">
+            <div class="project-meta-row">
+              <span class="project-num">02</span>
+              <span class="project-category-tag">Developer Utility &amp; API Tool</span>
+            </div>
+
+            <h3 class="project-name">DevDock</h3>
+            <div class="project-subtitle">API Tool &amp; Developer Request Inspection Workspace</div>
+
+            <p class="project-summary">A focused developer workspace and API testing utility crafted to dispatch HTTP requests, inspect RESTful headers, and evaluate formatted JSON responses.</p>
+
+            <!-- Key Highlights -->
+            <ul class="project-highlights-list">
+                              <li class="project-highlight-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Interactive HTTP method dispatching (GET, POST, PUT, DELETE)</span>
+                </li>
+                              <li class="project-highlight-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Structured JSON payload parsing and formatted syntax inspection</span>
+                </li>
+                              <li class="project-highlight-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>HTTP status code response timing and header inspection utilities</span>
+                </li>
+                              <li class="project-highlight-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Lightweight client-side architecture with zero external framework dependencies</span>
+                </li>
+                          </ul>
+
+            <!-- Tech Tags -->
+            <div class="project-tags">
+                              <span class="project-tag">JavaScript (ES6+)</span>
+                              <span class="project-tag">REST APIs</span>
+                              <span class="project-tag">JSON</span>
+                              <span class="project-tag">HTML5</span>
+                              <span class="project-tag">CSS3</span>
+                          </div>
+
+            <!-- Action Buttons -->
+            <div class="project-actions">
+              <a href="https://devdock.freedev.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <span>Live Demo</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+              <a href="https://github.com/Mihir290545/API-Tool" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                <span>Source Code</span>
+              </a>
+              <button type="button" onclick="openProjectDetails('devdock')" class="btn btn-ghost btn-sm">
+                <span>View Details</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project Visual Preview -->
+          <div class="project-preview">
+            <img src="assets/images/projects/dev-dock.svg" alt="DevDock Application Preview" loading="lazy">
+          </div>
+        </article>
+              <article class="project-card  reveal" id="project-financeflow">
+          <!-- Project Info -->
+          <div class="project-info">
+            <div class="project-meta-row">
+              <span class="project-num">03</span>
+              <span class="project-category-tag">Financial Tracking Application</span>
+            </div>
+
+            <h3 class="project-name">FinanceFlow</h3>
+            <div class="project-subtitle">Personal Finance &amp; Financial Cash Flow Tracker</div>
+
+            <p class="project-summary">A personal cashflow tracking web application designed to log monetary transactions, categorize expenditures, and calculate real-time net balances.</p>
+
+            <!-- Key Highlights -->
+            <ul class="project-highlights-list">
+                              <li class="project-highlight-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Real-time balance calculation with automatic income and expense aggregation</span>
+                </li>
+                              <li class="project-highlight-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Categorized transaction tagging with visual type indicators</span>
+                </li>
+                              <li class="project-highlight-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Persistent transaction history utilizing client-side storage</span>
+                </li>
+                              <li class="project-highlight-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Responsive financial summary cards with high-contrast accessibility</span>
+                </li>
+                          </ul>
+
+            <!-- Tech Tags -->
+            <div class="project-tags">
+                              <span class="project-tag">JavaScript (ES6+)</span>
+                              <span class="project-tag">Local Storage</span>
+                              <span class="project-tag">CSS Grid</span>
+                              <span class="project-tag">HTML5</span>
+                          </div>
+
+            <!-- Action Buttons -->
+            <div class="project-actions">
+              <a href="https://financeflow-indol.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <span>Live Demo</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+              <a href="https://github.com/Mihir290545/financeflow" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                <span>Source Code</span>
+              </a>
+              <button type="button" onclick="openProjectDetails('financeflow')" class="btn btn-ghost btn-sm">
+                <span>View Details</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Project Visual Preview -->
+          <div class="project-preview">
+            <img src="assets/images/projects/finance-flow.svg" alt="FinanceFlow Application Preview" loading="lazy">
+          </div>
+        </article>
+          </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     EXPERIENCE & EDUCATION SECTION
+     ========================================================================== -->
+<section id="experience" class="section" aria-label="Experience and Education">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">CAREER HISTORY</div>
+      <h2 class="section-title">Practical Experience &amp; Education</h2>
+      <p class="section-subtitle">
+        Documented internship experience and university engineering curriculum.
+      </p>
+    </div>
+
+    <div class="experience-timeline">
+      <!-- Internship Card -->
+              <div class="timeline-card reveal">
+          <div class="timeline-top-row">
+            <div>
+              <h3 class="timeline-role">Junior MERN Stack Developer Intern</h3>
+              <div class="timeline-company">Depple Sorf Pvt. Ltd.</div>
+            </div>
+            <span class="timeline-badge">Internship</span>
+          </div>
+
+          <p style="color: var(--text-secondary); font-size: 0.95rem;">
+            Contributed to front-end development, application workflows, and component building within a team environment.          </p>
+
+          <ul class="timeline-resp-list">
+                          <li class="timeline-resp-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Built responsive web interfaces and user-facing views using HTML5, CSS3, JavaScript, and React.js.</span>
+              </li>
+                          <li class="timeline-resp-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Implemented interactive forms, client-side input validations, and structured data handling.</span>
+              </li>
+                          <li class="timeline-resp-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Worked with RESTful API integrations to connect frontend components with dynamic backend services.</span>
+              </li>
+                          <li class="timeline-resp-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Utilized Git and GitHub for version control, collaborative branch management, and code reviews.</span>
+              </li>
+                          <li class="timeline-resp-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Employed Postman, VS Code, and npm to debug API requests and execute functional browser testing.</span>
+              </li>
+                      </ul>
+
+          <div class="project-tags" style="margin-top: 0.5rem;">
+                          <span class="project-tag">React.js</span>
+                          <span class="project-tag">JavaScript (ES6+)</span>
+                          <span class="project-tag">HTML5 / CSS3</span>
+                          <span class="project-tag">REST APIs</span>
+                          <span class="project-tag">Postman</span>
+                          <span class="project-tag">Git &amp; GitHub</span>
+                      </div>
+        </div>
+      
+      <!-- Education Card -->
+      <div class="education-card reveal reveal-delay-1" id="education">
+        <div class="edu-header-row">
+          <div>
+            <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); margin-bottom: 0.25rem;">UNDERGRADUATE DEGREE</div>
+            <h3 class="edu-degree">Bachelor of Engineering in Computer Engineering</h3>
+            <div class="edu-institution">Government Engineering College, Palanpur &bull; Gujarat Technological University (GTU)</div>
+          </div>
+          <div class="edu-metrics">
+            <div class="edu-pill">Graduation: <strong>2027</strong></div>
+            <div class="edu-pill">CGPA: <strong>7.50 / 10</strong></div>
+          </div>
+        </div>
+
+        <div class="edu-courses-wrap">
+          <span class="edu-courses-label">Key Core Coursework Completed:</span>
+          <div class="edu-course-chips">
+                          <span class="edu-course-chip">Database Management Systems</span>
+                          <span class="edu-course-chip">Data Structures &amp; Algorithms</span>
+                          <span class="edu-course-chip">Object-Oriented Programming</span>
+                          <span class="edu-course-chip">Web Development Fundamentals</span>
+                          <span class="edu-course-chip">Operating Systems</span>
+                          <span class="edu-course-chip">Computer Networks</span>
+                      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     DEVELOPER PRINCIPLES SECTION
+     ========================================================================== -->
+<section id="principles" class="section section-alt" aria-label="Development Approach">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">MINDSET</div>
+      <h2 class="section-title">What I Focus On</h2>
+      <p class="section-subtitle">
+        The core principles that guide my approach to software development and problem solving.
+      </p>
+    </div>
+
+    <div class="principles-grid">
+              <div class="principle-card reveal">
+          <div class="principle-num">01</div>
+          <h3 class="principle-title">Build Practical Functionality</h3>
+          <p class="principle-desc">I prioritize developing web applications with meaningful workflows, robust database operations, and dependable logic over superficial decorations.</p>
+        </div>
+              <div class="principle-card reveal">
+          <div class="principle-num">02</div>
+          <h3 class="principle-title">Understand the Entire Flow</h3>
+          <p class="principle-desc">I focus on understanding how frontend forms, server-side HTTP request cycles, and MySQL relational queries connect seamlessly.</p>
+        </div>
+              <div class="principle-card reveal">
+          <div class="principle-num">03</div>
+          <h3 class="principle-title">Iterate &amp; Refine Continuously</h3>
+          <p class="principle-desc">I actively expand my engineering capabilities by building real projects, debugging errors systematically, testing features, and refactoring code.</p>
+        </div>
+          </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     CONTACT SECTION
+     ========================================================================== -->
+<section id="contact" class="section" aria-label="Contact Mihir Raval">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">GET IN TOUCH</div>
+      <h2 class="section-title">Let's Build Something Useful</h2>
+      <p class="section-subtitle">
+        I am actively seeking entry-level opportunities as a PHP Developer, Junior Full Stack Developer, or Backend Developer. Feel free to reach out directly.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Left: Direct Channels -->
+      <div class="contact-channels reveal">
+        <p class="contact-lead">
+          Whether you have an entry-level opening, an internship opportunity, feedback on my projects, or a technical inquiry, my inbox is open.
+        </p>
+
+        <div class="contact-links-list">
+          <!-- Email Channel -->
+          <div class="contact-card-link">
+            <div class="contact-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact-card-text" style="flex: 1;">
+              <span class="contact-card-label">Direct Email</span>
+              <a href="mailto:mihiryogirajubhai@gmail.com" class="contact-card-val" style="color: var(--accent);">mihiryogirajubhai@gmail.com</a>
+              <div class="copy-email-box">
+                <button type="button" onclick="copyEmailToClipboard('mihiryogirajubhai@gmail.com')" class="btn btn-ghost btn-sm" style="padding: 0.2rem 0.5rem; font-size: 0.75rem;">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+                  <span>Copy Address</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- LinkedIn Channel -->
+          <a href="https://www.linkedin.com/in/mihir-raval-2aa82b377/" target="_blank" rel="noopener noreferrer" class="contact-card-link">
+            <div class="contact-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div class="contact-card-text">
+              <span class="contact-card-label">LinkedIn Profile</span>
+              <span class="contact-card-val">linkedin.com/in/mihir-raval-2aa82b377</span>
+            </div>
+          </a>
+
+          <!-- GitHub Channel -->
+          <a href="https://github.com/Mihir290545" target="_blank" rel="noopener noreferrer" class="contact-card-link">
+            <div class="contact-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </div>
+            <div class="contact-card-text">
+              <span class="contact-card-label">GitHub Repositories</span>
+              <span class="contact-card-val">github.com/Mihir290545</span>
+            </div>
+          </a>
+
+          <!-- Location Badge -->
+          <div class="contact-card-link" style="cursor: default;">
+            <div class="contact-card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact-card-text">
+              <span class="contact-card-label">Current Base</span>
+              <span class="contact-card-val">Palanpur, Gujarat, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Contact Form -->
+      <div class="contact-form-container reveal reveal-delay-1">
+        <form id="contact-form" class="contact-form" method="POST" action="api/contact.php" novalidate>
+          <!-- CSRF Security Token -->
+          <input type="hidden" name="csrf_token" value="ad000adf0eb61789142c036155d41dd68d16b67fa706067bccd2ef17a1cd57c8">
+
+          <!-- Honeypot field for bot spam detection -->
+          <div class="form-honeypot" aria-hidden="true">
+            <label for="website_hp">Leave this empty</label>
+            <input type="text" id="website_hp" name="website_hp" tabindex="-1" autocomplete="off">
+          </div>
+
+          <!-- Alert Container -->
+          <div id="form-alert" class="form-alert" role="alert" aria-live="polite"></div>
+
+          <!-- Form Fields -->
+          <div class="form-group">
+            <label for="form-name" class="form-label">Your Name <span class="req">*</span></label>
+            <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. Alex Johnson" required maxlength="100">
+          </div>
+
+          <div class="form-group">
+            <label for="form-email" class="form-label">Your Email <span class="req">*</span></label>
+            <input type="email" id="form-email" name="email" class="form-input" placeholder="e.g. alex@company.com" required maxlength="150">
+          </div>
+
+          <div class="form-group">
+            <label for="form-subject" class="form-label">Subject <span class="req">*</span></label>
+            <input type="text" id="form-subject" name="subject" class="form-input" placeholder="e.g. Junior Developer Role / Project Discussion" required maxlength="150">
+          </div>
+
+          <div class="form-group">
+            <label for="form-message" class="form-label">Message <span class="req">*</span></label>
+            <textarea id="form-message" name="message" class="form-textarea" placeholder="Describe the role, inquiry, or project..." required maxlength="4000"></textarea>
+          </div>
+
+          <button type="submit" id="form-submit-btn" class="btn btn-primary" style="width: 100%;">
+            <span>Send Message</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="#hero" class="brand-logo" style="margin-bottom: 0.5rem;">
+            <span class="brand-monogram" aria-hidden="true">MR</span>
+            <div class="brand-name">
+              <span>MIHIR RAVAL</span>
+              <span class="brand-title">PHP FULL STACK DEV</span>
+            </div>
+          </a>
+          <p style="max-width: 420px; font-size: 0.95rem; margin-top: 0.5rem;">
+            Computer Engineering student and developer focused on practical, database-driven web applications with PHP, MySQL, and modern web tools.
+          </p>
+        </div>
+
+        <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); text-transform: uppercase;">NAVIGATION</span>
+            <a href="#about" class="footer-link" style="color: var(--text-secondary); font-size: 0.9rem;">About</a>
+            <a href="#skills" class="footer-link" style="color: var(--text-secondary); font-size: 0.9rem;">Skills</a>
+            <a href="#projects" class="footer-link" style="color: var(--text-secondary); font-size: 0.9rem;">Projects</a>
+            <a href="#experience" class="footer-link" style="color: var(--text-secondary); font-size: 0.9rem;">Experience</a>
+            <a href="#contact" class="footer-link" style="color: var(--text-secondary); font-size: 0.9rem;">Contact</a>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); text-transform: uppercase;">CONNECT</span>
+            <a href="https://github.com/Mihir290545" target="_blank" rel="noopener noreferrer" style="color: var(--text-secondary); font-size: 0.9rem;">GitHub</a>
+            <a href="https://www.linkedin.com/in/mihir-raval-2aa82b377/" target="_blank" rel="noopener noreferrer" style="color: var(--text-secondary); font-size: 0.9rem;">LinkedIn</a>
+            <a href="mailto:mihiryogirajubhai@gmail.com" style="color: var(--text-secondary); font-size: 0.9rem;">Direct Email</a>
+            <a href="assets/resume/Mihir_Raval_Resume.pdf" download="Mihir_Raval_Resume.pdf" style="color: var(--accent); font-size: 0.9rem; font-weight: 600;">Download Resume</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <span>&copy; 2026 Mihir Raval. Palanpur, Gujarat, India.</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+          <span style="font-family: var(--font-mono); font-size: 0.75rem;">Engineered with PHP, HTML5 &amp; CSS3</span>
+          <button type="button" class="back-to-top-btn" id="back-to-top" aria-label="Scroll back to the top of page">
+            <span>Back to top</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 15l-6-6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Details Modal Dialog -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-box">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close project details modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <div id="modal-details-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Store Project Data in JSON for Instant Interactive Modal Rendering -->
+  <script>
+    window.portfolioProjects = {"tasksphere":{"id":"tasksphere","num":"01","title":"TaskSphere","subtitle":"Database-Driven Task \u0026 Workflow Management Application","category":"Full Stack Web Application","tech_stack":["PHP","MySQL","HTML5","CSS3","JavaScript"],"live_url":"http:\/\/tasksphere.wuaze.com","github_url":"https:\/\/github.com\/Mihir290545","image":"assets\/images\/projects\/task-sphere.svg","summary":"A practical task management platform engineered to organize personal and team workflows, manage task lifecycle stages, and persist operational records using PHP and relational MySQL.","description":"TaskSphere was developed to explore full-cycle web development using PHP and MySQL. It features organized workflow boards, database-driven task creation, priority flags, and status transitions. The application handles server-side form validation, relational queries for task assignments, and clean UI updates to make daily task tracking clear and dependable.","highlights":["Full CRUD operations for tasks, status tags, and workflow items","Relational MySQL schema structure with indexed foreign keys","Server-side validation and input sanitization routines","Responsive task management dashboard designed for desktop and mobile"],"status":"Deployed Application"},"devdock":{"id":"devdock","num":"02","title":"DevDock","subtitle":"API Tool \u0026 Developer Request Inspection Workspace","category":"Developer Utility \u0026 API Tool","tech_stack":["JavaScript (ES6+)","REST APIs","JSON","HTML5","CSS3"],"live_url":"https:\/\/devdock.freedev.app","github_url":"https:\/\/github.com\/Mihir290545\/API-Tool","image":"assets\/images\/projects\/dev-dock.svg","summary":"A focused developer workspace and API testing utility crafted to dispatch HTTP requests, inspect RESTful headers, and evaluate formatted JSON responses.","description":"DevDock solves the need for an accessible, lightweight tool to quickly inspect API behavior during development. Built with clean JavaScript and modern asynchronous fetch APIs, DevDock allows developers to construct requests, configure query params, inspect HTTP status codes, and analyze formatted JSON responses without launching heavy software.","highlights":["Interactive HTTP method dispatching (GET, POST, PUT, DELETE)","Structured JSON payload parsing and formatted syntax inspection","HTTP status code response timing and header inspection utilities","Lightweight client-side architecture with zero external framework dependencies"],"status":"Deployed Tool"},"financeflow":{"id":"financeflow","num":"03","title":"FinanceFlow","subtitle":"Personal Finance \u0026 Financial Cash Flow Tracker","category":"Financial Tracking Application","tech_stack":["JavaScript (ES6+)","Local Storage","CSS Grid","HTML5"],"live_url":"https:\/\/financeflow-indol.vercel.app\/","github_url":"https:\/\/github.com\/Mihir290545\/financeflow","image":"assets\/images\/projects\/finance-flow.svg","summary":"A personal cashflow tracking web application designed to log monetary transactions, categorize expenditures, and calculate real-time net balances.","description":"FinanceFlow offers an intuitive interface for tracking personal income and everyday expenses. By implementing persistent client-side data structures, dynamic calculations, and category filters, users gain transparency over their spending patterns. The application emphasizes clean layout hierarchy and instant arithmetic balance recalculations upon transaction submission.","highlights":["Real-time balance calculation with automatic income and expense aggregation","Categorized transaction tagging with visual type indicators","Persistent transaction history utilizing client-side storage","Responsive financial summary cards with high-contrast accessibility"],"status":"Deployed Application"}};
+  </script>
+
+  <!-- Application Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/interactions.js"></script>
+</body>
+</html>

@@ -1,0 +1,247 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 4420 >>
+stream
+BT
+/F2 22 Tf
+50.00 790.00 Td
+(MIHIR RAVAL) Tj
+ET
+BT
+/F2 12 Tf
+50.00 770.00 Td
+(PHP Full Stack Developer | Computer Engineering Student) Tj
+ET
+BT
+/F1 10 Tf
+50.00 755.00 Td
+(Palanpur, Gujarat, India  |  mihiryogirajubhai@gmail.com  |  github.com/Mihir290545  |  linkedin.com/in/mihir-raval-2aa82b377) Tj
+ET
+50.00 745.00 m 560.00 745.00 l 0.7 0.7 0.7 RG S
+BT
+/F2 13 Tf
+50.00 725.00 Td
+(CAREER OBJECTIVE) Tj
+ET
+BT
+/F1 10 Tf
+50.00 708.00 Td
+(Motivated Computer Engineering student with practical experience building database-driven web applications) Tj
+ET
+BT
+/F1 10 Tf
+50.00 695.00 Td
+(using PHP, MySQL, JavaScript, and frontend technologies. Seeking entry-level opportunities as a PHP Developer,) Tj
+ET
+BT
+/F1 10 Tf
+50.00 682.00 Td
+(Junior Full Stack Developer, or Backend Developer to contribute to real-world software solutions.) Tj
+ET
+BT
+/F2 13 Tf
+50.00 655.00 Td
+(EDUCATION) Tj
+ET
+BT
+/F2 11 Tf
+50.00 638.00 Td
+(Bachelor of Engineering in Computer Engineering) Tj
+ET
+BT
+/F1 10 Tf
+50.00 625.00 Td
+(Government Engineering College, Palanpur  |  Expected Graduation: 2027  |  CGPA: 7.50) Tj
+ET
+BT
+/F2 13 Tf
+50.00 598.00 Td
+(PRACTICAL EXPERIENCE) Tj
+ET
+BT
+/F2 11 Tf
+50.00 581.00 Td
+(Junior MERN Stack Developer Intern  -  Depple Sorf Pvt. Ltd.) Tj
+ET
+BT
+/F1 10 Tf
+50.00 568.00 Td
+(- Developed and maintained interactive user interfaces and responsive web layouts using React.js, HTML, and CSS.) Tj
+ET
+BT
+/F1 10 Tf
+50.00 555.00 Td
+(- Implemented client-side forms, user input handling, and integrated RESTful API endpoints for dynamic workflows.) Tj
+ET
+BT
+/F1 10 Tf
+50.00 542.00 Td
+(- Utilized Git, GitHub, VS Code, npm, and Postman for version control, dependency management, and API testing.) Tj
+ET
+BT
+/F1 10 Tf
+50.00 529.00 Td
+(- Collaborated on debugging UI components and performing functional test validation across browser viewports.) Tj
+ET
+BT
+/F2 13 Tf
+50.00 502.00 Td
+(KEY PROJECTS) Tj
+ET
+BT
+/F2 11 Tf
+50.00 485.00 Td
+(TaskSphere  |  Task & Workflow Management Application) Tj
+ET
+BT
+/F1 9 Tf
+50.00 473.00 Td
+(Tech Stack: PHP, MySQL, HTML5, CSS3, JavaScript  |  Live: tasksphere.wuaze.com) Tj
+ET
+BT
+/F1 10 Tf
+50.00 460.00 Td
+(- Engineered a task tracking platform with full CRUD operations for tasks, categories, and priority statuses.) Tj
+ET
+BT
+/F1 10 Tf
+50.00 447.00 Td
+(- Implemented server-side form validation, relational MySQL database structure, and session-based state management.) Tj
+ET
+BT
+/F2 11 Tf
+50.00 424.00 Td
+(DevDock  |  API Tool & Developer Utility Workspace) Tj
+ET
+BT
+/F1 9 Tf
+50.00 412.00 Td
+(Tech Stack: JavaScript, HTML5, CSS3, REST APIs  |  Live: devdock.freedev.app) Tj
+ET
+BT
+/F1 10 Tf
+50.00 399.00 Td
+(- Built a developer-centric utility for making HTTP requests, inspecting JSON payloads, and testing endpoints.) Tj
+ET
+BT
+/F1 10 Tf
+50.00 386.00 Td
+(- Designed clean client-side response viewers with status code feedback and payload formatting.) Tj
+ET
+BT
+/F2 11 Tf
+50.00 363.00 Td
+(FinanceFlow  |  Personal Financial & Expense Tracking App) Tj
+ET
+BT
+/F1 9 Tf
+50.00 351.00 Td
+(Tech Stack: JavaScript, HTML5, CSS3, Local Storage  |  Live: financeflow-indol.vercel.app) Tj
+ET
+BT
+/F1 10 Tf
+50.00 338.00 Td
+(- Created a personal cash flow management tool for logging income, tracking expenditures, and transaction history.) Tj
+ET
+BT
+/F1 10 Tf
+50.00 325.00 Td
+(- Integrated dynamic balance calculations, category tagging, and interactive financial summary views.) Tj
+ET
+BT
+/F2 13 Tf
+50.00 295.00 Td
+(TECHNICAL SKILLS) Tj
+ET
+BT
+/F2 10 Tf
+50.00 278.00 Td
+(Backend Development: ) Tj
+ET
+BT
+/F1 10 Tf
+170.00 278.00 Td
+(PHP, Server-Side Scripting, Form Handling, CRUD Operations, Session Management) Tj
+ET
+BT
+/F2 10 Tf
+50.00 263.00 Td
+(Databases: ) Tj
+ET
+BT
+/F1 10 Tf
+170.00 263.00 Td
+(MySQL, SQL Queries, Relational Database Design Fundamentals, Data Management) Tj
+ET
+BT
+/F2 10 Tf
+50.00 248.00 Td
+(Frontend & Web: ) Tj
+ET
+BT
+/F1 10 Tf
+170.00 248.00 Td
+(HTML5, CSS3, JavaScript \(ES6+\), DOM Manipulation, Responsive Design, Flexbox, Grid) Tj
+ET
+BT
+/F2 10 Tf
+50.00 233.00 Td
+(Programming Languages: ) Tj
+ET
+BT
+/F1 10 Tf
+170.00 233.00 Td
+(PHP, JavaScript, C, Python) Tj
+ET
+BT
+/F2 10 Tf
+50.00 218.00 Td
+(Tools & Workflows: ) Tj
+ET
+BT
+/F1 10 Tf
+170.00 218.00 Td
+(Git, GitHub, VS Code, Postman, npm, REST APIs, JSON, Browser Storage) Tj
+ET
+BT
+/F2 10 Tf
+50.00 203.00 Td
+(Core Concepts: ) Tj
+ET
+BT
+/F1 10 Tf
+170.00 203.00 Td
+(OOP Fundamentals, Data Structures & Algorithms, Debugging, CRUD Architecture) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000004728 00000 n 
+0000004798 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4873
+%%EOF

@@ -1,0 +1,4 @@
+# Keep session folder tracked without tracking individual session files
+*
+!.gitignore
+!.gitkeep

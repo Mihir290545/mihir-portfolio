@@ -1,0 +1,12 @@
+# Configuration with real secrets (keep config.example.php tracked)
+config/config.php
+
+# Stored contact messages (contains private submission data)
+data/messages.json
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
